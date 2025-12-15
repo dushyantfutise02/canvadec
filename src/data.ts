@@ -7,28 +7,28 @@ export const data ={
       "id": 1,
       "name": "Manoj Lewis",
       "designation": "Founder | Director",
-      "image": "/images/manoj-lewis.png",
+      "image": "/user/manoj.png",
       "linkedin": null
     },
     {
       "id": 2,
       "name": "Chetan Muddukrishna",
       "designation": "Founder | Director",
-      "image": "/images/chetan-muddukrishna.png",
+      "image": "/user/chetan.jpg",
       "linkedin": null
     },
     {
       "id": 3,
       "name": "Archana Sindura",
       "designation": "Founder | Director",
-      "image": "/images/archana-sindura.png",
+      "image": "/user/archana.jpg",
       "linkedin": null
     },
     {
       "id": 4,
       "name": "Rashmi Prakash",
       "designation": "Founder | Director",
-      "image": "/images/rashmi-prakash.png",
+      "image": "/user/archana.jpg",
       "linkedin": null
     }
   ],
@@ -38,28 +38,28 @@ export const data ={
       "id": 5,
       "name": "Naveen Muddu Krishna",
       "designation": "Sandisk | Director | Global Head for Hardware Product Validation | Automation | Product Development",
-      "image": "/images/naveen-muddu-krishna.png",
+      "image": "/user/naveen-muddu-krishna.png",
       "linkedin": "https://www.linkedin.com/in/naveen-muddu-krishna-62322113/"
     },
     {
       "id": 6,
       "name": "Prakash Datanal",
       "designation": "Associate Consultant at Tata Consultancy | GD&T | CAD | Siemens NX | Teamcenter",
-      "image": "/images/prakash-datanal.png",
+      "image": "/user/prakash.png",
       "linkedin": "https://www.linkedin.com/in/prakash-datanal-76a4747/"
     },
     {
       "id": 7,
       "name": "Keerthi Kundimi",
       "designation": "Enterprise Solutions Architect | GCP | Hybrid Cloud | Storage Systems",
-      "image": "/images/keerthi-kundimi.png",
+      "image": "/user/keerthi.png",
       "linkedin": "https://www.linkedin.com/in/john-keerthi-kundimi-a47b071a/"
     },
     {
       "id": 8,
       "name": "Vinod Madiwalar",
       "designation": "Learning & Development Specialist | Corporate & Technical Training | R&D",
-      "image": "/images/vinod-madiwalar.png",
+      "image": "/user/vinod.png",
       "linkedin": "https://www.linkedin.com/in/vinod-madiwalar-123a8423/"
     }
   ],
@@ -69,7 +69,7 @@ export const data ={
       "id": 9,
       "name": "Dushyanth MP",
       "designation": "Chief Product Manager | Senior Lead Developer | AI & Code Quality",
-      "image": "/images/dushyanth-mp.png",
+      "image": "/user/DushyanthMP.png",
       "linkedin": "https://www.linkedin.com/in/dushyanth-m-p-9166b71a1/"
     }
   ],
@@ -79,7 +79,7 @@ export const data ={
       "id": 10,
       "name": "Deepali A Naidu",
       "designation": "Lead Developer | AI & Code Quality",
-      "image": "/images/deepali-naidu.png",
+      "image": "/user/DeepaliANaidu.png",
       "linkedin": "https://www.linkedin.com/in/deepali-naidu-774221123/"
     }
   ],
@@ -89,14 +89,14 @@ export const data ={
       "id": 11,
       "name": "Reeta Ramadurg",
       "designation": "Senior Developer | AI & Code Quality",
-      "image": "/images/reeta-ramadurg.png",
+      "image": "/user/ReetaRamadurg.png",
       "linkedin": "https://www.linkedin.com/in/reeta-ramadurg/"
     },
     {
       "id": 12,
       "name": "Glen Clarence",
       "designation": "Senior Developer | AI & Code Quality",
-      "image": "/images/glen-clarence.png",
+      "image": "/user/Glen.png",
       "linkedin": "https://www.linkedin.com/in/glen-warrangal/"
     }
   ],
@@ -106,14 +106,14 @@ export const data ={
       "id": 13,
       "name": "Taranpreetsingh H",
       "designation": "Full Stack Developer | Strong Academic Foundation | Continuous Learning",
-      "image": "/images/taranpreetsingh-h.png",
+      "image": "/user/taran.png",
       "linkedin": "https://www.linkedin.com/in/taranpreetsingh-rababi-aa415a200"
     },
     {
       "id": 14,
       "name": "Dushyant Kumar (DK)",
       "designation": "Full Stack Developer | MERN | Scalable Web App Development",
-      "image": "/images/dushyant-kumar.png",
+      "image": "/user/dk.png",
       "linkedin": "https://www.linkedin.com/in/dushyantkumar04/"
     }
   ],
@@ -123,7 +123,7 @@ export const data ={
       "id": 15,
       "name": "Gagan K M",
       "designation": "Cloud & DevOps Engineer | AWS | CI/CD | Docker | Kubernetes",
-      "image": "/images/gagan-km.png",
+      "image": "/user/GaganKM.png",
       "linkedin": "https://www.linkedin.com/in/gagan-k-m-425167277/"
     }
   ],
@@ -133,7 +133,7 @@ export const data ={
       "id": 16,
       "name": "Mahal Teja",
       "designation": "UI/UX Developer | Frontend Engineer | Figma | Cross-Browser UI",
-      "image": "/images/mahal-teja.png",
+      "image": "/user/MahalTeja.png",
       "linkedin": "https://www.linkedin.com/in/mahal-teja-006556248/"
     }
   ],
@@ -143,14 +143,14 @@ export const data ={
       "id": 17,
       "name": "Mythri D S",
       "designation": "AIML Engineer | Python | OpenCV | Brain Disorder Analysis",
-      "image": "/images/mythri-ds.png",
+      "image": "/user/mythri.png",
       "linkedin": "https://www.linkedin.com/in/mythri-d-s/"
     },
     {
       "id": 18,
       "name": "K Mokshitha",
       "designation": "AIML Enthusiast | Full Stack | Creative Thinker",
-      "image": "/images/k-mokshitha.png",
+      "image": "/user/mokshi.png",
       "linkedin": "https://www.linkedin.com/in/mokshitha-k-303048229/"
     }
   ],
@@ -160,42 +160,35 @@ export const data ={
       "id": 19,
       "name": "Prathipati Jwesta",
       "designation": "Hive Member",
-      "image": "/images/prathipati-jwesta.png",
+      "image": "/user/PrathipatiJwesta.png",
       "linkedin": "https://www.linkedin.com/in/jwesta-prathipati/"
     },
     {
       "id": 20,
       "name": "Hemanth S N",
       "designation": "VLSI Intern | RTL | IoT & Embedded Systems",
-      "image": "/images/hemanth-sn.png",
-      "linkedin": null
-    },
-    {
-      "id": 21,
-      "name": "Dushyant Kumar",
-      "designation": "Full Stack Intern | Java | React | SQL",
-      "image": "/images/dushyant-kumar-intern.png",
+      "image": "/user/Hemanth.png",
       "linkedin": null
     },
     {
       "id": 22,
       "name": "Ranjita L Patil",
       "designation": "Full Stack Intern | Java | React | SQL",
-      "image": "/images/ranjita-patil.png",
+      "image": "/user/RanjitaLPatil.png",
       "linkedin": "https://www.linkedin.com/in/ranjita-patil-13779a27a/"
     },
     {
       "id": 23,
       "name": "Jeevith Gowda R M",
       "designation": "Backend Developer Intern | Python | SQL | Algorithms",
-      "image": "/images/jeevith-gowda.png",
+      "image": "/user/Jeevith.png",
       "linkedin": "https://www.linkedin.com/in/jeevithgowda-r-m-33a022277/"
     },
     {
       "id": 24,
       "name": "Aishwarya Katare",
       "designation": "Instructional Designer Intern | Micro-Learning | ADDIE",
-      "image": "/images/aishwarya-katare.png",
+      "image": "/user/Aishwarya.png",
       "linkedin": "https://www.linkedin.com/in/aishwarya-k-363453236/"
     }
   ]
