@@ -5,7 +5,7 @@ import img from "../assets/images/dk.png";
 
 const Team = () => {
   return (
-    <div className='px-20 flex flex-col gap-5'>
+    <div className='px-20 flex flex-col gap-5 '>
       {/* header  */}
         <Title title="Our Team"/>
         <div className='flex gap-5 items-center place-self-center'>
