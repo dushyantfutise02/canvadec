@@ -3,6 +3,7 @@ import React from "react";
 const Home = () => {
   return (
     <>
+      {" "}
       <section>
         <div>
           <img src="" alt="futise_logo" />
