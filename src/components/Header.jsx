@@ -22,10 +22,50 @@ const Header = () => {
           </li>
           <li>
             <NavLink
+              to="/table"
+              className="text-xl font-medium hover:text-[#844cff]"
+            >
+              Contents
+            </NavLink>
+          </li>
+          <li>
+            <NavLink
               to="/about"
               className="text-xl font-medium hover:text-[#844cff]"
             >
               About
+            </NavLink>
+          </li>
+          <li>
+            <NavLink
+              to="/innovate"
+              className="text-xl font-medium hover:text-[#844cff]"
+            >
+              Innovation
+            </NavLink>
+          </li>
+          <li>
+            <NavLink
+              to="/mission"
+              className="text-xl font-medium hover:text-[#844cff]"
+            >
+              Mission & Vision
+            </NavLink>
+          </li>
+          <li>
+            <NavLink
+              to="/pillars"
+              className="text-xl font-medium hover:text-[#844cff]"
+            >
+              Pillars
+            </NavLink>
+          </li>
+          <li>
+            <NavLink
+              to="/domain"
+              className="text-xl font-medium hover:text-[#844cff]"
+            >
+              Domain
             </NavLink>
           </li>
           <li>

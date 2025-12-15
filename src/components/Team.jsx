@@ -1,19 +1,22 @@
-import React from 'react'
-import User from './User'
-import Title from './Title'
-import img from "../assets/images/dk.png";
+import React from "react";
+import User from "./User";
+import Title from "./Title";
+import img from "../assets/user/dk.png";
+import { data } from "../data.ts";
 
 const Team = () => {
+  const { name, designation, image } = data.founders[0];
   return (
-    <div className='px-20 flex flex-col gap-5 '>
+    <div className="flex flex-col gap-5 ">
       {/* header  */}
-        <Title title="Our Team"/>
-        <div className='flex gap-5 items-center place-self-center'>
-          <User name={"Dushyant Kumar"} desc={"about"} img={img}/>
-          <User name={"Dushyant Kumar"} desc={"about"} img={img}/>
-        </div>
+      <Title title="Our Team" />
+      {data.founders.map((user) => {
+        <div className="grid grid-cols-2 gap-30 items-center place-self-center">
+          <User name={user.name} desc={user.designation} img={user.image} />
+        </div>;
+      })}
     </div>
-  )
-}
+  );
+};
 
-export default Team
+export default Team;

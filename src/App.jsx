@@ -11,6 +11,9 @@ import Why from "./components/Why.jsx";
 import User from "./components/User.jsx";
 import Layout from "./components/Layout.jsx";
 import Home from "./components/Home.jsx";
+import Innovation from "./components/Innovation.jsx";
+import MissionVision from "./components/MissionVision.jsx";
+import Pillars from "./components/Pillars.jsx";
 
 const router = createBrowserRouter([
   {
@@ -38,7 +41,7 @@ const router = createBrowserRouter([
         element: <Table />,
       },
       {
-        path: "/doamin",
+        path: "/domain",
         element: <Domain />,
       },
       {
@@ -52,6 +55,18 @@ const router = createBrowserRouter([
       {
         path: "/user",
         element: <User />,
+      },
+      {
+        path: "/innovate",
+        element: <Innovation />,
+      },
+      {
+        path: "/mission",
+        element: <MissionVision />,
+      },
+      {
+        path: "/pillars",
+        element: <Pillars />,
       },
     ],
   },
