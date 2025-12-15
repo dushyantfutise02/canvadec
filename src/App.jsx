@@ -4,6 +4,14 @@ import { createBrowserRouter, RouterProvider } from "react-router-dom";
 
 import Layout from "./components/Layout.jsx";
 import Home from "./components/Home.jsx";
+import About from "./components/About.jsx";
+import Contact from "./components/Contact";
+import Table from "./components/Table.jsx";
+import Team from "./components/Team.jsx";
+import Domain from "./components/Domain.jsx";
+import History from "./components/History.jsx";
+import Why from "./components/Why.jsx";
+import LandingPage from "./components/LendingPage.jsx";
 
 
 const router = createBrowserRouter([
@@ -17,13 +25,37 @@ const router = createBrowserRouter([
       },
       {
         path: "/about",
-        element: <AboutUs />,
+        element: <About />,
       },
       {
         path: "/contact",
-        element: <Contacts />,
+        element: <Contact />,
       },
-      
+      {
+        path: "/team",
+        element: <Team />,
+      },
+      {
+        path: "/table",
+        element: <Table />,
+      },
+      {
+        path: "/doamin",
+        element: <Domain />,
+      },
+      {
+        path: "/history",
+        element: <History />,
+      },
+      {
+        path: "/lending",
+        element: <LandingPage />,
+      },
+      {
+        path: "/why",
+        element: <Why />,
+      },
+
     ],
   },
 ]);
