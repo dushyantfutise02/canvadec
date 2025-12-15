@@ -15,13 +15,13 @@ const Header = () => {
       <div className="flex items-center ">
         <ul className=" flex gap-5 items-center">
           <li>
-            <NavLink to="/" className="text-xl font-medium">Home</NavLink>
+            <NavLink to="/" className="text-lg font-medium">Home</NavLink>
           </li>
           <li>
-            <NavLink to="/about" className="text-xl font-medium">About</NavLink>
+            <NavLink to="/about" className="text-lg font-medium">About</NavLink>
           </li>
           <li>
-            <NavLink to="/contact" className="text-xl font-medium" >Contact Us</NavLink>
+            <NavLink to="/contact" className="text-lg font-medium" >Contact</NavLink>
           </li>
         </ul>
       </div>

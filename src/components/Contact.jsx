@@ -4,7 +4,7 @@ import img from "../assets/images/contact.png";
 
 const Contact = () => {
   return (
-    <div className="px-20 flex flex-col gap-5">
+    <div className=" flex flex-col gap-5">
       <Title title={"Get in Touch"} />
       <div className="flex justify-between px-10">
         <div className="flex flex-col gap-5 place-self-end">
