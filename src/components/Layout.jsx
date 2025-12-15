@@ -7,7 +7,7 @@ const Layout = () => {
   return (
     <div>
       <Header />
-      <div className="h-105">
+      <div>
         <Outlet />
       </div>
       <Footer />
