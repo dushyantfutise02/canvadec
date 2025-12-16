@@ -6,13 +6,13 @@ const Home = () => {
   return (
     <>
       {" "}
-      <section className="grid grid-cols-2 p-4">
+      <section className="grid grid-cols-2 ">
         <div className="flex flex-col gap-25">
           <div className="">
             <img
               src={futise_logo}
               alt="futise_logo"
-              className="w-55 h-25"
+              className="w-65 h-25"
             />
           </div>
           <div className="flex flex-col gap-8">
