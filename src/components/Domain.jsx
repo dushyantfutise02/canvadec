@@ -7,22 +7,23 @@ const Domain = () => {
       <div className="">
         <Title title="Domains of Expertise"></Title>
       </div>
+      <div className="relative">
+        <div className="absolute w-25 h-70 -left-30 top-20 bg-linear-to-r from-[#11bfff] to-[#844cff] [clip-path:polygon(0%_0,100%_0,50%_100%,0_100%)]"></div>
+      </div>
       <div className="flex">
-        <div className="w-[20%] relative">
-          <div className="absolute bottom-0 w-[80%] h-full bg-linear-to-r from-[#11bfff] to-[#844cff] [clip-path:polygon(0%_0,100%_0,50%_100%,0_100%)]"></div>
-        </div>
-        <div style={styles.grid} className="p-25 text-3xl">
+        <div style={styles.grid} className="p-2 text-3xl">
           <div style={styles.column}>
             <p>1&nbsp;&nbsp; VLSI, Semiconductor and Embeded</p>
             <p>2&nbsp;&nbsp; AI & ML</p>
             <p>3&nbsp;&nbsp; Cyber Security</p>
-            <p>4&nbsp;&nbsp;Cloud Computing and Data Science</p>
+            <p>4&nbsp;&nbsp;Cloud Computing </p>
           </div>
 
           <div style={styles.column}>
             <p>5&nbsp;&nbsp;Automotive Designs and EV and IoT</p>
             <p>6&nbsp;&nbsp;Deep Tech </p>
             <p>7&nbsp;&nbsp;Quantum Computing</p>
+            <p>8&nbsp;&nbsp;Data Science</p>
           </div>
         </div>
       </div>

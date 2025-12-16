@@ -16,7 +16,7 @@ const User = ({name,desc,img,link}) => {
         <p className="text-white bg-[#7060FF] rounded-2xl px-5 py-1 font-semibold text-xl">
           {name}
         </p>
-        <p className="font-medium px-15">{desc}</p>
+        <p className="font-medium px-15 text-center">{desc}</p>
       </div>
     </div>
   );

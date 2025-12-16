@@ -71,17 +71,8 @@ export const data ={
       "designation": "Chief Product Manager | Senior Lead Developer | AI & Code Quality",
       "image": "/user/DushyanthMP.png",
       "linkedin": "https://www.linkedin.com/in/dushyanth-m-p-9166b71a1/"
-    }
-  ],
-
-  "leadDeveloper": [
-    {
-      "id": 10,
-      "name": "Deepali A Naidu",
-      "designation": "Lead Developer | AI & Code Quality",
-      "image": "/user/DeepaliANaidu.png",
-      "linkedin": "https://www.linkedin.com/in/deepali-naidu-774221123/"
-    }
+    },
+    
   ],
 
   "seniorDevelopers": [
@@ -132,9 +123,16 @@ export const data ={
     {
       "id": 16,
       "name": "Mahal Teja",
-      "designation": "UI/UX Developer | Frontend Engineer | Figma | Cross-Browser UI",
+      "designation": "UI/UX  | Frontend Developer | Figma | Cross-Browser UI",
       "image": "/user/MahalTeja.png",
       "linkedin": "https://www.linkedin.com/in/mahal-teja-006556248/"
+    },
+    {
+      "id": 10,
+      "name": "Deepali A Naidu",
+      "designation": "Lead Developer | AI & Code Quality",
+      "image": "/user/DeepaliANaidu.png",
+      "linkedin": "https://www.linkedin.com/in/deepali-naidu-774221123/"
     }
   ],
 

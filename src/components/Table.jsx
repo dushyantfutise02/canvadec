@@ -7,11 +7,13 @@ const Table = () => {
       <div className="">
         <Title title="Table of Contents"></Title>
       </div>
-      <div className="flex">
-        <div className="w-[20%] relative">
-          <div className="absolute bottom-0 w-[80%] h-full bg-linear-to-r from-[#11bfff] to-[#844cff] [clip-path:polygon(0%_0,100%_0,50%_100%,0_100%)]"></div>
+
+      <div className="relative">
+          <div className="absolute top-10 -left-25 w-25 h-80 bg-linear-to-r from-[#11bfff] to-[#844cff] [clip-path:polygon(0%_0,100%_0,50%_100%,0_100%)]"></div>
         </div>
-        <div style={styles.grid} className="p-25 text-2xl">
+      <div className="flex">
+        
+        <div  className="p-25 text-2xl grid grid-cols-3 gap-20">
           <div style={styles.column}>
             <p>1&nbsp;&nbsp;About FUTiSE</p>
             <p>2&nbsp;&nbsp;Mission | Vision</p>

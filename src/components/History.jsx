@@ -3,17 +3,17 @@ import logo from "../assets/images/futise2.jpeg";
 
 const History = () => {
   return (
-    <div className=" bg-white min-h-screen flex flex-col">
+    <div className=" bg-white flex flex-col gap-8">
       {/* Gradient Header Box */}
       <div className="flex justify-between sm:pl-10 lg:pl-50">
         <div
-          className="px-16 py-10 rounded-lg shadow-lg"
+          className="px-12 py-8 rounded-lg shadow-lg"
           style={{
             background: "linear-gradient(135deg, #844cff 0%, #11bfff 100%)",
             minWidth: "600px",
           }}
         >
-          <h1 className="text-6xl font-bold text-white text-center">
+          <h1 className="text-4xl font-bold text-white text-center">
             How It Started
           </h1>
         </div>
@@ -22,10 +22,10 @@ const History = () => {
 
 
       {/* Main Content - Centered and Evenly Spaced */}
-      <div className="flex-1 flex flex-col  justify-center space-y-12  mx-auto">
+      <div className="flex-1 flex flex-col  justify-center space-y-6  mx-auto">
         {/* Main Heading */}
         <div className="">
-          <h2 className="text-5xl font-bold mb-4">
+          <h2 className="text-4xl font-bold mb-4">
             60+ Years of Combined Experience
           </h2>
           <div

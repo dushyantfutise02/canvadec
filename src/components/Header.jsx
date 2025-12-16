@@ -4,7 +4,7 @@ import logo from "../assets/images/fl.png";
 
 const Header = () => {
   return (
-    <div className="flex justify-between shadow-lg px-7 mb-5 h-20">
+    <div className="flex fixed z-100 bg-white w-full justify-between shadow-lg px-7 mb-5 py-4">
       {/* left section */}
       <img className="w-30 h-10 rounded-4xl place-self-center" src={logo} alt="" />
       {/* right section  */}

@@ -40,7 +40,7 @@ export default function About() {
             </p>
 
             <p className="about-highlight text-2xl text-justify">
-              Our first offering of ed-tech platform <strong>GENi</strong>, we
+              Our first offering of EdTech platform <strong>GXXX</strong>, we
               shape the future of technology and equip the next-generation
               workforce.
             </p>

@@ -5,9 +5,11 @@ import Footer from "./Footer.jsx";
 
 const Layout = () => {
   return (
-    <div>
-      <Header />
-      <div className="h-auto min-h-105 px-35">
+    <div className="flex flex-col">
+      <div>
+        <Header className=""/>
+      </div>
+      <div className="h-auto min-h-105 px-35 mt-22">
         <Outlet />
       </div>
       <Footer />
