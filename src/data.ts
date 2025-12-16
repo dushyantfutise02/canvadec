@@ -14,21 +14,21 @@ export const data ={
       "id": 2,
       "name": "Chetan Muddukrishna",
       "designation": "Founder | Director",
-      "image": "/src/assets/user/archana.jpg",
+      "image": "/src/assets/user/m.jpeg",
       "linkedin": null
     },
     {
       "id": 3,
       "name": "Archana Sindura",
       "designation": "Founder | Director",
-      "image": "/src/assets/user/archana.jpg",
+      "image": "/src/assets/user/f.jpeg",
       "linkedin": null
     },
     {
       "id": 4,
       "name": "Rashmi Prakash",
       "designation": "Founder | Director",
-      "image": "/src/assets/user/archana.jpg",
+      "image": "/src/assets/user/f.jpeg",
       "linkedin": null
     }
   ],
