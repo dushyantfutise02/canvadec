@@ -3,17 +3,11 @@ import logo from "../assets/images/futise2.jpeg";
 
 const History = () => {
   return (
-    <div className="px-20 py-10 bg-white min-h-screen flex flex-col">
-      {/* Logo in top right */}
-      <div className="flex justify-end mb-8">
-        <img src={logo} alt="Futise Logo" className="size-16" />
-      </div>
-
-      {/* Main Content - Centered and Evenly Spaced */}
-      <div className="flex-1 flex flex-col items-center justify-center space-y-12 max-w-5xl mx-auto">
-        {/* Gradient Header Box */}
+    <div className=" bg-white min-h-screen flex flex-col">
+      {/* Gradient Header Box */}
+      <div className="flex justify-between sm:pl-10 lg:pl-50">
         <div
-          className="px-16 py-10 mb-8 rounded-lg shadow-lg"
+          className="px-16 py-10 rounded-lg shadow-lg"
           style={{
             background: "linear-gradient(135deg, #844cff 0%, #11bfff 100%)",
             minWidth: "600px",
@@ -23,14 +17,19 @@ const History = () => {
             How It Started
           </h1>
         </div>
+        <img src={logo} alt="Futise Logo" className="size-16 " />
+      </div>
 
+
+      {/* Main Content - Centered and Evenly Spaced */}
+      <div className="flex-1 flex flex-col  justify-center space-y-12  mx-auto">
         {/* Main Heading */}
-        <div className="text-center mb-8">
+        <div className="">
           <h2 className="text-5xl font-bold mb-4">
             60+ Years of Combined Experience
           </h2>
           <div
-            className="h-1.5 w-28 mx-auto rounded-full"
+            className="h-1.5 w-28 rounded-full"
             style={{
               background: "linear-gradient(90deg, #844cff 0%, #11bfff 100%)",
             }}
@@ -38,7 +37,7 @@ const History = () => {
         </div>
 
         {/* Body Text - Centered */}
-        <div className="max-w-3xl space-y-6 text-gray-800 text-xl leading-relaxed text-left">
+        <div className=" space-y-6 text-gray-800 text-xl leading-relaxed text-left">
           <p>
             It all started over a casual chai break. <strong>4 Experts</strong>{" "}
             from different domains found themselves in a heated discussion. Each
@@ -52,11 +51,6 @@ const History = () => {
             truly shaped the future? <strong>Hence, FUTiSE.</strong>
           </p>
         </div>
-      </div>
-
-      {/* Footer */}
-      <div className="mt-auto text-right py-4">
-        <p className="text-sm text-gray-600">www.futise.com</p>
       </div>
     </div>
   );

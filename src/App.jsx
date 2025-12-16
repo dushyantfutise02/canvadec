@@ -55,10 +55,6 @@ const router = createBrowserRouter([
         element: <Why />,
       },
       {
-        path: "/user",
-        element: <User />,
-      },
-      {
         path: "/innovate",
         element: <Innovation />,
       },

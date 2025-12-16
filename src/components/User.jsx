@@ -3,11 +3,11 @@ import React from "react";
 import { NavLink } from "react-router-dom";
 import linkImg from "../assets/images/linkImg.webp"
 
-const User = ({name,desc,img}) => {
+const User = ({name,desc,img,link}) => {
   return (
     <div className="flex flex-col items-center gap-1">
       <div className="relative">
-        <NavLink to="#" className="">
+        <NavLink to={link} className="">
           <img src={linkImg} alt="" className="size-5 absolute right-0"/>
         </NavLink>
         <img src={img} alt="" className="h-40 rounded " />

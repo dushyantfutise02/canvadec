@@ -23,6 +23,7 @@ const CategorySection = ({ title, members }) => {
             name={user.name}
             desc={user.designation}
             img={user.image}
+            link={user.linkedin}
           />
         ))}
       </div>

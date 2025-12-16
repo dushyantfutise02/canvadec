@@ -8,13 +8,13 @@ export const data ={
       "name": "Manoj Lewis",
       "designation": "Founder | Director",
       "image": "/src/assets/user/manoj.png",
-      "linkedin": null
+      "linkedin": "https://www.linkedin.com/in/manojlewis/"
     },
     {
       "id": 2,
       "name": "Chetan Muddukrishna",
       "designation": "Founder | Director",
-      "image": "/src/assets/user/chetan.jpg",
+      "image": "/src/assets/user/archana.jpg",
       "linkedin": null
     },
     {
