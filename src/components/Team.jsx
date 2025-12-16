@@ -11,7 +11,8 @@ const Team = () => {
       {/* header  */}
       <Title title="Our Team" />
       {data.founders.map((user) => {
-        <div className="grid grid-cols-2 gap-30 items-center place-self-center">
+        <div key={user.id} className="grid grid-cols-2 gap-30 items-center place-self-center" >
+
           <User name={user.name} desc={user.designation} img={user.image} />
         </div>;
       })}

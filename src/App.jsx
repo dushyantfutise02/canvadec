@@ -13,7 +13,6 @@ import History from "./components/History.jsx";
 import Why from "./components/Why.jsx";
 import User from "./components/User.jsx";
 
-
 const router = createBrowserRouter([
   {
     path: "/",
@@ -51,11 +50,10 @@ const router = createBrowserRouter([
         path: "/why",
         element: <Why />,
       },
-       {
+      {
         path: "/user",
         element: <User />,
       },
-
     ],
   },
 ]);
