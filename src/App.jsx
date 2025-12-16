@@ -11,6 +11,7 @@ import Team from "./components/Team.jsx";
 import Domain from "./components/Domain.jsx";
 import History from "./components/History.jsx";
 import Why from "./components/Why.jsx";
+import HowItStarted from "./components/HowItStarted.jsx";
 import LandingPage from "./components/LendingPage.jsx";
 import User from "./components/User.jsx";
 
@@ -56,7 +57,11 @@ const router = createBrowserRouter([
         path: "/why",
         element: <Why />,
       },
-       {
+      {
+        path: "/how-it-started",
+        element: <HowItStarted />,
+      },
+      {
         path: "/user",
         element: <User />,
       },
