@@ -4,12 +4,12 @@ import Title from "./Title";
 const Domain = () => {
   return (
     <div>
-      <div className="pl-12 pr-12">
+      <div className="">
         <Title title="Domains of Expertise"></Title>
       </div>
       <div className="flex">
         <div className="w-[20%] relative">
-          <div className="absolute bottom-0 w-[80%] h-full left-12 bg-linear-to-r from-[#11bfff] to-[#844cff] [clip-path:polygon(0%_0,100%_0,50%_100%,0_100%)]"></div>
+          <div className="absolute bottom-0 w-[80%] h-full bg-linear-to-r from-[#11bfff] to-[#844cff] [clip-path:polygon(0%_0,100%_0,50%_100%,0_100%)]"></div>
         </div>
         <div style={styles.grid} className="p-25 text-3xl">
           <div style={styles.column}>

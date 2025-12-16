@@ -27,9 +27,9 @@ export default function About() {
 
       <div className="about-page">
         <div className="about-content">
-          <div className="p-12">
+          <div className="">
             <Title title="About"></Title>
-            <p className="about-text text-3xl text-justify">
+            <p className="about-text text-2xl text-justify mt-2">
               <strong>FUTiSE Technologies Private Limited</strong> is a
               disruptive upcoming tech company dedicated to innovation and
               excellence in the ed-tech domain. Beyond bridging the gap between
@@ -39,7 +39,7 @@ export default function About() {
               needed to lead and excel in a rapidly evolving world.
             </p>
 
-            <p className="about-highlight text-3xl text-justify">
+            <p className="about-highlight text-2xl text-justify">
               Our first offering of ed-tech platform <strong>GENi</strong>, we
               shape the future of technology and equip the next-generation
               workforce.

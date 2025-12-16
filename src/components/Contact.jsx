@@ -4,16 +4,16 @@ import img from "../assets/images/contact.png";
 
 const Contact = () => {
   return (
-    <div className=" flex flex-col gap-5 pl-12 pr-12">
+    <div className=" flex flex-col gap-5">
       <Title title={"Get in Touch"} />
       <div className="flex">
-        <div className="flex flex-col gap-5 place-self-end w-[50%]">
+        <div className="flex flex-col gap-5 place-self-end w-[90%]">
           <div className="flex items-center w-[80%] gap-2 pl-5 pr-30 py-2 text-white bg-linear-to-r from-[#11bfff] to-[#844cff] [clip-path:polygon(0%_0,100%_0,95%_100%,0_100%)] ">
             <span className="">
-              <i class="fa-solid fa-phone text-3xl"></i>
+              <i className="fa-solid fa-phone text-3xl"></i>
             </span>
             <div className="flex flex-col">
-              <p>Phone</p>
+              <p className="font-semibold">Phone</p>
               <a href="+91 9742284903">
                 <p>+91 9742284903</p>
               </a>
@@ -24,7 +24,7 @@ const Contact = () => {
               <i className="fa-solid fa-globe text-3xl"></i>
             </span>
             <div className="flex flex-col">
-              <p>Website</p>
+              <p className="font-semibold">Website</p>
               <a href="https://www.futise.com" target="_blank">
                 <p>www.futise.com</p>
               </a>
@@ -32,10 +32,10 @@ const Contact = () => {
           </div>
           <div className="flex items-center w-[70%] gap-2 pl-5 pr-30 py-2 text-white bg-linear-to-r from-[#11bfff] to-[#844cff] [clip-path:polygon(0%_0,100%_0,88%_100%,0_100%)]">
             <span>
-              <i class="fa-solid fa-location-dot text-3xl"></i>
+              <i className="fa-solid fa-location-dot text-3xl"></i>
             </span>
             <div className="flex flex-col">
-              <p>Registered Address</p>
+              <p className="font-semibold">Registered Address</p>
               <p>
                 Space 12, The CoWork Spaces, 1st Floor CTS #4882, Site #6, Ward
                 #38A, Kalburgi Katwe Identity, Green Garden, Gokul Rd, Hubballi,
@@ -44,9 +44,8 @@ const Contact = () => {
             </div>
           </div>
         </div>
-        <div className="flex justify-center">
-          <div className="w-[50%] h-full">
-            {" "}
+        <div className="flex justify-end">
+          <div className="h-90 w-100">
             <img src={img} alt="" className="w-full h-full" />
           </div>
         </div>

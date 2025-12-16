@@ -1,19 +1,13 @@
 import React from "react";
-import logo from "../assets/images/futise2.jpeg";
+import Title from "./Title";
 
 const MissionVision = () => {
   return (
-    <div className="px-20 py-10 bg-gray-50 flex flex-col">
-      {/* Logo in top right */}
-      <div className="flex justify-end mb-8">
-        <img src={logo} alt="Futise Logo" className="size-16" />
-      </div>
-
+    <div className="p-10 flex flex-col">
       {/* Mission Section */}
-      <div className="mb-12">
-        <h1 className="text-5xl font-bold mb-2">Mission</h1>
-        <div className="h-1 w-32 bg-blue-600 mb-6"></div>
-        <p className="text-lg leading-relaxed text-gray-800 max-w-4xl">
+      <div className="">
+        <Title title={"Mission"} />
+        <p className="text-lg leading-relaxed text-gray-800 max-w-4xl mt-3">
           At FUTiSE, we are driven by a mission to integrate technology,
           creativity, and expertise to combine traditional learning and evolving
           industry demands. Through innovative solutions and transformative
@@ -23,10 +17,15 @@ const MissionVision = () => {
       </div>
 
       {/* Vision Section */}
-      <div className="mb-8">
-        <h1 className="text-5xl font-bold mb-2">Vision</h1>
-        <div className="h-1 w-32 bg-blue-600 mb-6"></div>
-        <p className="text-lg leading-relaxed text-gray-800 max-w-4xl">
+      <div className="mt-8">
+        <div className="relative">
+          <h1 className="text-4xl font-bold ">Vision</h1>
+          <div
+            id="blue_underline"
+            className="w-30 h-1.5 bg-linear-to-r from-[#11bfff] to-[#844cff]"
+          ></div>
+        </div>
+        <p className="text-lg leading-relaxed text-gray-800 max-w-4xl mt-2">
           We envision a world where knowledge is boundless - accessible to every
           aspiring learner, transcending geographical barriers. FUTiSE is
           committed to building a future where learning and innovation go hand

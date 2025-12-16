@@ -6,16 +6,14 @@ const Header = () => {
   return (
     <div className="flex justify-between shadow-lg px-7 mb-5 h-20">
       {/* left section */}
-      <div className="">
-        <img className="w-full h-full rounded-4xl " src={logo} alt="" />
-      </div>
+      <img className="w-30 h-10 rounded-4xl place-self-center" src={logo} alt="" />
       {/* right section  */}
       <div className="flex items-center ">
         <ul className=" flex gap-5 items-center">
           <li>
             <NavLink
               to="/"
-              className="text-xl font-medium hover:text-[#844cff]"
+              className="text-lg font-medium hover:text-[#844cff]"
             >
               Home
             </NavLink>
@@ -23,7 +21,7 @@ const Header = () => {
           <li>
             <NavLink
               to="/table"
-              className="text-xl font-medium hover:text-[#844cff]"
+              className="text-lg font-medium hover:text-[#844cff]"
             >
               Contents
             </NavLink>
@@ -31,7 +29,7 @@ const Header = () => {
           <li>
             <NavLink
               to="/about"
-              className="text-xl font-medium hover:text-[#844cff]"
+              className="text-lg font-medium hover:text-[#844cff]"
             >
               About
             </NavLink>
@@ -39,7 +37,7 @@ const Header = () => {
           <li>
             <NavLink
               to="/innovate"
-              className="text-xl font-medium hover:text-[#844cff]"
+              className="text-lg font-medium hover:text-[#844cff]"
             >
               Innovation
             </NavLink>
@@ -47,7 +45,7 @@ const Header = () => {
           <li>
             <NavLink
               to="/mission"
-              className="text-xl font-medium hover:text-[#844cff]"
+              className="text-lg font-medium hover:text-[#844cff]"
             >
               Mission & Vision
             </NavLink>
@@ -55,7 +53,7 @@ const Header = () => {
           <li>
             <NavLink
               to="/pillars"
-              className="text-xl font-medium hover:text-[#844cff]"
+              className="text-lg font-medium hover:text-[#844cff]"
             >
               Pillars
             </NavLink>
@@ -63,15 +61,23 @@ const Header = () => {
           <li>
             <NavLink
               to="/domain"
-              className="text-xl font-medium hover:text-[#844cff]"
+              className="text-lg font-medium hover:text-[#844cff]"
             >
               Domain
             </NavLink>
           </li>
           <li>
             <NavLink
+              to="/team"
+              className="text-lg font-medium hover:text-[#844cff]"
+            >
+              Team
+            </NavLink>
+          </li>
+          <li>
+            <NavLink
               to="/contact"
-              className="text-xl font-medium hover:text-[#844cff]"
+              className="text-lg font-medium hover:text-[#844cff]"
             >
               Contact Us
             </NavLink>
