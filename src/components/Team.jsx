@@ -1,7 +1,7 @@
 import React from "react";
 import User from "./User";
 import Title from "./Title";
-import { data } from "../data.ts";
+import { data } from "../data.js";
 import CategorySection from "./CategorySection.jsx";
 
 const Team = () => {

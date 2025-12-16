@@ -13,17 +13,16 @@ const Domain = () => {
         </div>
         <div style={styles.grid} className="p-25 text-3xl">
           <div style={styles.column}>
-            <p>1&nbsp;&nbsp;AI & ML</p>
-            <p>2&nbsp;&nbsp;Data Science </p>
-            <p>3&nbsp;&nbsp;VLSI & Semiconductor</p>
-            <p>3&nbsp;&nbsp;Cloud Computing</p>
+            <p>1&nbsp;&nbsp; VLSI, Semiconductor and Embeded</p>
+            <p>2&nbsp;&nbsp; AI & ML</p>
+            <p>3&nbsp;&nbsp; Cyber Security</p>
+            <p>4&nbsp;&nbsp;Cloud Computing and Data Science</p>
           </div>
 
           <div style={styles.column}>
-            <p>5&nbsp;&nbsp;Cybersecurity</p>
-            <p>6&nbsp;&nbsp;Embedded Systems</p>
-            <p>7&nbsp;&nbsp;Automotive Design & EV</p>
-            <p>8&nbsp;&nbsp;IoT (Internet of Things)</p>
+            <p>5&nbsp;&nbsp;Automotive Designs and EV and IoT</p>
+            <p>6&nbsp;&nbsp;Deep Tech </p>
+            <p>7&nbsp;&nbsp;Quantum Computing</p>
           </div>
         </div>
       </div>

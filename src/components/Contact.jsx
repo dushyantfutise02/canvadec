@@ -8,7 +8,7 @@ const Contact = () => {
       <Title title={"Get in Touch"} />
       <div className="flex">
         <div className="flex flex-col gap-5 place-self-end w-[90%]">
-          <div className="flex items-center w-[80%] gap-2 pl-5 pr-30 py-2 text-white bg-linear-to-r from-[#11bfff] to-[#844cff] [clip-path:polygon(0%_0,100%_0,95%_100%,0_100%)] ">
+          <div className="flex items-center w-[85%] gap-2 pl-5 pr-30 py-2 text-white bg-linear-to-r from-[#11bfff] to-[#844cff] [clip-path:polygon(0%_0,100%_0,95%_100%,0_100%)] ">
             <span className="">
               <i className="fa-solid fa-phone text-3xl"></i>
             </span>
@@ -19,7 +19,7 @@ const Contact = () => {
               </a>
             </div>
           </div>
-          <div className="flex items-center w-[75%] gap-2 pl-5 pr-30 py-2 text-white bg-linear-to-r from-[#11bfff] to-[#844cff] [clip-path:polygon(0%_0,100%_0,95%_100%,0_100%)]">
+          <div className="flex items-center w-[80%] gap-2 pl-5 pr-30 py-2 text-white bg-linear-to-r from-[#11bfff] to-[#844cff] [clip-path:polygon(0%_0,100%_0,95%_100%,0_100%)]">
             <span className="">
               <i className="fa-solid fa-globe text-3xl"></i>
             </span>
@@ -30,7 +30,7 @@ const Contact = () => {
               </a>
             </div>
           </div>
-          <div className="flex items-center w-[70%] gap-2 pl-5 pr-30 py-2 text-white bg-linear-to-r from-[#11bfff] to-[#844cff] [clip-path:polygon(0%_0,100%_0,88%_100%,0_100%)]">
+          <div className="flex items-center w-[75%] gap-2 pl-5 pr-30 py-2 text-white bg-linear-to-r from-[#11bfff] to-[#844cff] [clip-path:polygon(0%_0,100%_0,88%_100%,0_100%)]">
             <span>
               <i className="fa-solid fa-location-dot text-3xl"></i>
             </span>

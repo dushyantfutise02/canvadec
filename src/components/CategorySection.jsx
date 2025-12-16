@@ -1,6 +1,5 @@
 import User from "./User";
 
-
 const CategorySection = ({ title, members }) => {
   if (!members || members.length === 0) return null;
 
@@ -11,7 +10,8 @@ const CategorySection = ({ title, members }) => {
         <h1 className="text-4xl font-bold ">{title}</h1>
         <div
           id="blue_underline"
-          className="w-full h-1.5 bg-linear-to-r from-[#11bfff] to-[#844cff]"
+          className="w-full h-1.5 bg-linear-to-r
+        from-[#11bfff] to-[#844cff]"
         ></div>
       </div>
 
