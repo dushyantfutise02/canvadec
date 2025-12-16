@@ -8,6 +8,8 @@ import Team from "./components/Team.jsx";
 import Domain from "./components/Domain.jsx";
 import History from "./components/History.jsx";
 import Why from "./components/Why.jsx";
+
+
 import User from "./components/User.jsx";
 import Layout from "./components/Layout.jsx";
 import Home from "./components/Home.jsx";

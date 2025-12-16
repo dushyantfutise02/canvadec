@@ -60,10 +60,26 @@ const Header = () => {
           </li>
           <li>
             <NavLink
+              to="/why"
+              className="text-lg font-medium hover:text-[#844cff]"
+            >
+              Why
+            </NavLink>
+          </li>
+          <li>
+            <NavLink
               to="/domain"
               className="text-lg font-medium hover:text-[#844cff]"
             >
               Domain
+            </NavLink>
+          </li>
+          <li>
+            <NavLink
+              to="/history"
+              className="text-lg font-medium hover:text-[#844cff]"
+            >
+              How
             </NavLink>
           </li>
           <li>
