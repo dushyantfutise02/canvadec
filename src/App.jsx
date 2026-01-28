@@ -1,4 +1,3 @@
-import React from "react";
 import About from "./components/About.jsx";
 import "./App.css";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
@@ -6,11 +5,9 @@ import Contact from "./components/Contact";
 import Table from "./components/Table.jsx";
 import Team from "./components/Team.jsx";
 import Domain from "./components/Domain.jsx";
-import History from "./components/History.jsx";
+import Career from "./components/Career.jsx";
 import Why from "./components/Why.jsx";
 
-
-import User from "./components/User.jsx";
 import Layout from "./components/Layout.jsx";
 import Home from "./components/Home.jsx";
 import Innovation from "./components/Innovation.jsx";
@@ -47,8 +44,8 @@ const router = createBrowserRouter([
         element: <Domain />,
       },
       {
-        path: "/history",
-        element: <History />,
+        path: "/career",
+        element: <Career />,
       },
       {
         path: "/why",

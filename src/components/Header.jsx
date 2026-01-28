@@ -1,4 +1,3 @@
-import React from "react";
 import { NavLink } from "react-router-dom";
 import logo from "../assets/images/fl.png";
 
@@ -76,10 +75,10 @@ const Header = () => {
           </li>
           <li>
             <NavLink
-              to="/history"
+              to="/career"
               className="text-lg font-medium hover:text-[#844cff]"
             >
-              How
+              career
             </NavLink>
           </li>
           <li>

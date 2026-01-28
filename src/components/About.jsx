@@ -46,6 +46,39 @@ export default function About() {
             </p>
           </div>
         </div>
+        
+      </div>
+
+      {/* Main Content - Centered and Evenly Spaced */}
+      <div className=" mt-7 flex-1 flex flex-col  justify-center space-y-6  mx-auto">
+        {/* Main Heading */}
+        <div className="">
+          <h2 className="text-4xl font-bold mb-4">
+            60+ Years of Combined Experience
+          </h2>
+          <div
+            className="h-1.5 w-28 rounded-full"
+            style={{
+              background: "linear-gradient(90deg, #844cff 0%, #11bfff 100%)",
+            }}
+          ></div>
+        </div>
+
+        {/* Body Text - Centered */}
+        <div className=" space-y-6 text-gray-800 text-xl leading-relaxed text-left">
+          <p>
+            It all started over a casual chai break. <strong>4 Experts</strong>{" "}
+            from different domains found themselves in a heated discussion. Each
+            had spent years solving complex problems in their own domains, but
+            they all shared the same frustration: tech learning and upskilling
+            was inaccessible to many.
+          </p>
+          <p>
+            What if they brought their expertise together? What if they built
+            something bigger than just individual solutions - something that
+            truly shaped the future? <strong>Hence, FUTiSE.</strong>
+          </p>
+        </div>
       </div>
     </>
   );
