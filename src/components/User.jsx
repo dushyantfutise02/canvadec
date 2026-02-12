@@ -1,7 +1,7 @@
 import React from "react";
 
 import { NavLink } from "react-router-dom";
-import linkImg from "../assets/images/LinkImg.webp"
+import linkImg from "../assets/images/linkimg.webp";
 
 const User = ({name,desc,img,link}) => {
   return (
