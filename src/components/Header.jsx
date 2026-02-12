@@ -78,7 +78,7 @@ const Header = () => {
               to="/career"
               className="text-lg font-medium hover:text-[#844cff]"
             >
-              career
+              Career
             </NavLink>
           </li>
           <li>
