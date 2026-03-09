@@ -181,13 +181,13 @@ export const data ={
       "designation": "Backend Developer Intern | Python | SQL | Algorithms",
       "image": "/user/Jeevith.png",
       "linkedin": "https://www.linkedin.com/in/jeevithgowda-r-m-33a022277/"
-    },
-    {
-      "id": 24,
-      "name": "Aishwarya Katare",
-      "designation": "Instructional Designer Intern | Micro-Learning | ADDIE",
-      "image": "/user/Aishwarya.png",
-      "linkedin": "https://www.linkedin.com/in/aishwarya-k-363453236/"
     }
+    // {
+    //   "id": 24,
+    //   "name": "Aishwarya Katare",
+    //   "designation": "Instructional Designer Intern | Micro-Learning | ADDIE",
+    //   "image": "/user/Aishwarya.png",
+    //   "linkedin": "https://www.linkedin.com/in/aishwarya-k-363453236/"
+    // }
   ]
 }
